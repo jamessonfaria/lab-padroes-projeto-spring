@@ -2,7 +2,9 @@ package br.com.jamesson.service.impl;
 
 import br.com.jamesson.model.Cliente;
 import br.com.jamesson.service.ClienteService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ClienteServiceImpl implements ClienteService {
     @Override
     public Iterable<Cliente> buscarTodos() {
