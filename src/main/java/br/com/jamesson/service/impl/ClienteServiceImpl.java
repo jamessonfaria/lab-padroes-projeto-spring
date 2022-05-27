@@ -22,7 +22,7 @@ public class ClienteServiceImpl implements ClienteService {
     }
 
     @Override
-    public void atualizar(Cliente cliente) {
+    public void atualizar(Long id, Cliente cliente) {
 
     }
 
